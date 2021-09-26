@@ -12,7 +12,7 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2e7e98c"/>
   <project name="meta-tegra" path="sources/meta-tegra" remote="meta-tegra" revision="620e1b5"/>
   <project name="meta-tegra-community" path="sources/meta-tegra-community" remote="meta-tegra" revision="75b1849"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="0aa1659"/>
+  <project name="git/meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="0aa1659"/>
   <project name="mbilloo/mab-tegra" path="sources/meta-mab-tegra" remote="mab-tegra" revision="main"/>
 
 </manifest>
