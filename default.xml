@@ -3,10 +3,10 @@
 
   <default sync-j="2"/>
 
-  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="ssh://git.yoctoproject.org/" name="yocto"/>
+  <remote fetch="ssh://git.openembedded.org/" name="oe"/>
   <remote fetch="https://github.com/OE4T/" name="meta-tegra"/>
-  <remote fetch="git@github.com:mbilloo/" name="mab-tegra"/>
+  <remote fetch="ssh://git@github.com:mbilloo/" name="mab-tegra"/>
 
   <project name="poky" path="sources/poky" remote="yocto" revision="a0a9df0"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="aee2f10"/>
