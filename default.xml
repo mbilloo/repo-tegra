@@ -3,8 +3,8 @@
 
   <default sync-j="2"/>
 
-  <remote fetch="ssh://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="ssh://git.openembedded.org/" name="oe"/>
+  <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
+  <remote fetch="https://git.openembedded.org/" name="oe"/>
   <remote fetch="https://github.com/OE4T/" name="meta-tegra"/>
   <remote fetch="ssh://git@github.com:mbilloo/" name="mab-tegra"/>
 
@@ -12,6 +12,6 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="aee2f10"/>
   <project name="meta-tegra" path="sources/meta-tegra" remote="meta-tegra" revision="b6fac52"/>
   <project name="meta-tegra-community" path="sources/meta-tegra-community" remote="meta-tegra" revision="75b1849"/>
-  <project name="mab-tegra" path="sources/meta-mab-tegra" remote="mab-tegra" revision="main"/>
+  <project name="mab-tegra.git" path="sources/meta-mab-tegra" remote="mab-tegra" revision="main"/>
 
 </manifest>
