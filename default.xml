@@ -13,6 +13,7 @@
   <project name="meta-tegra" path="sources/meta-tegra" remote="meta-tegra" revision="620e1b5479fd2fbb64676d801b4043f956fe8e71"/>
   <project name="meta-tegra-community" path="sources/meta-tegra-community" remote="meta-tegra" revision="75949fa5c5c11b7c9eebe2c374ba9b517a073604"/>
   <project name="git/meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9e9868ef3d6e5da7f0ecd0680fcd69324593842b"/>
+  <project name="mbilloo/mab-tegra-support" path="sources/meta-mab-tegra-support" remote="mab-tegra" revision="main">
   <project name="mbilloo/mab-tegra" path="sources/meta-mab-tegra" remote="mab-tegra" revision="main">
       <linkfile src="scripts/setup.sh" dest="setup.sh"/>
   </project>
