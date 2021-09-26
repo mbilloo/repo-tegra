@@ -6,12 +6,13 @@
   <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="https://git.openembedded.org/" name="oe"/>
   <remote fetch="https://github.com/OE4T/" name="meta-tegra"/>
-  <remote fetch="ssh://git@github.com:mbilloo/" name="mab-tegra"/>
+  <remote fetch="ssh://git@github.com/" name="mab-tegra"/>
 
-  <project name="poky" path="sources/poky" remote="yocto" revision="a0a9df0"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="aee2f10"/>
-  <project name="meta-tegra" path="sources/meta-tegra" remote="meta-tegra" revision="b6fac52"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="74b22db"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="2e7e98c"/>
+  <project name="meta-tegra" path="sources/meta-tegra" remote="meta-tegra" revision="620e1b5"/>
   <project name="meta-tegra-community" path="sources/meta-tegra-community" remote="meta-tegra" revision="75b1849"/>
-  <project name="mab-tegra.git" path="sources/meta-mab-tegra" remote="mab-tegra" revision="main"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" reviision="0aa1659"/>
+  <project name="mbilloo/mab-tegra" path="sources/meta-mab-tegra" remote="mab-tegra" revision="main"/>
 
 </manifest>
